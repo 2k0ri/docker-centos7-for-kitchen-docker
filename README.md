@@ -5,5 +5,5 @@
   driver_config:
     image: 2k0ri/centos7-for-kitchen-docker
     privileged: true
-    run_command: /sbin/init
+    run_command: /sbin/init; sleep 5
 ```
